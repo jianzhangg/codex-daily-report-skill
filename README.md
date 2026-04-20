@@ -30,6 +30,8 @@
 
 ```text
 .
+├── agents/
+│   └── openai.yaml
 ├── SKILL.md
 └── references/
     └── commands.md
@@ -43,6 +45,14 @@
 
 - Codex: `~/.codex/skills/codex-daily-report-skill`
 - Anti Gravity: `~/.gemini/antigravity/skills/codex-daily-report-skill`
+
+## 调用示例
+
+在支持 skills 的客户端里，可以直接用类似下面的提示：
+
+```text
+Use $codex-daily-report to summarize today's Codex conversations in the current workspace into an 8h Chinese daily report.
+```
 
 ## 输出约定
 

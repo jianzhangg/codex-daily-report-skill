@@ -1,0 +1,7 @@
+interface:
+  display_name: "Codex Daily Report"
+  short_description: "按工作区和日期整理 Codex 中文日报"
+  default_prompt: "Use $codex-daily-report to summarize today's Codex conversations into a concise Chinese daily report for the current workspace."
+
+policy:
+  allow_implicit_invocation: true
